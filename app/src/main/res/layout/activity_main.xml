@@ -14,16 +14,84 @@
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:text="Get Location"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="80dp"
         android:id="@+id/Get_loc"
         />
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Get_loc"
-        android:layout_marginTop="20dp"
-        android:stretchColumns="5">
+        android:layout_margin="10dp"
+        android:stretchColumns="1,2,3,4,5,6">
 
+        <TableRow>
+
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="ID"
+                android:textStyle="bold"
+                android:layout_column="1"
+                android:gravity="center"
+                android:id="@+id/Id"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="G_Lat"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:id="@+id/g_lat"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="G_Lang"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:id="@+id/g_lang"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="M_Lat"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:id="@+id/o_lat"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="M_Lang"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:id="@+id/o_lang"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="Diffrence"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:id="@+id/diff"
+                />
+
+        </TableRow>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_height="500dp"
+            android:layout_width="match_parent"
+            android:id="@+id/rcv"
+            />
     </TableLayout>
 
 </RelativeLayout>

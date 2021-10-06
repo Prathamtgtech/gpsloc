@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LatLang</string>
     <integer name="google_play_services_version">12451000</integer>
+    <string name="access_token">pk.eyJ1IjoicHJhdGhhbXRndGVjaCIsImEiOiJja3U5YTU3eWcwMm11Mm9udm84dzh2a2liIn0.A5MwejRy0h59VKZgQ3EgSA</string>
 </resources>

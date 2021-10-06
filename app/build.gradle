@@ -43,10 +43,6 @@ dependencies {
     implementation "androidx.room:room-runtime:2.3.0"
     annotationProcessor "androidx.room:room-compiler:2.3.0"
 
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:6.0.1'
 
-    //OSM
-    implementation 'org.osmdroid:osmdroid-android:6.1.6'
-    implementation 'org.osmdroid:osmdroid-wms:6.1.6'
-    implementation 'org.osmdroid:osmdroid-mapsforge:6.1.6'
-    implementation 'org.osmdroid:osmdroid-geopackage:6.1.6'
 }
